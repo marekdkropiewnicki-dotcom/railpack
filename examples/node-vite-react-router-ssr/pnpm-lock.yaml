@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@react-router/node':
-    specifier: ^7.9.4
-    version: 7.9.4(react-router@7.12.0)(typescript@5.8.3)
+    specifier: ^7.9.5
+    version: 7.9.5(react-router@7.12.0)(typescript@5.8.3)
   '@react-router/serve':
     specifier: ^7.7.1
     version: 7.7.1(react-router@7.12.0)(typescript@5.8.3)
@@ -844,11 +844,11 @@ packages:
       react-router: 7.12.0(react-dom@19.1.0)(react@19.1.0)
       typescript: 5.8.3
 
-  /@react-router/node@7.9.4(react-router@7.12.0)(typescript@5.8.3):
-    resolution: {integrity: sha512-sdeDNRaqAB71BR2hPlhcQbPbrXh8uGJUjLVc+NpRiPsQbv6B8UvIucN4IX9YGVJkw3UxVQBn2vPSwxACAck32Q==}
+  /@react-router/node@7.9.5(react-router@7.12.0)(typescript@5.8.3):
+    resolution: {integrity: sha512-3mDd32mXh3gEkG0cLPnUaoLkY1pApsTPqn7O1j+P8aLf997uYz5lYDjt33vtMhaotlRM0x+5JziAKtz/76YBpQ==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
-      react-router: 7.9.4
+      react-router: 7.9.5
       typescript: ^5.1.0
     peerDependenciesMeta:
       typescript:
@@ -1478,8 +1478,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /brace-expansion@2.0.2:
-    resolution: {integrity: sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==}
+  /brace-expansion@2.1.0:
+    resolution: {integrity: sha512-TN1kCZAgdgweJhWWpgKYrQaMNHcDULHkWwQIspdtjV4Y5aurRdZpjAqn6yX3FPqTA9ngHCc4hJxMAMgGfve85w==}
     dependencies:
       balanced-match: 1.0.2
     dev: true
@@ -2285,7 +2285,7 @@ packages:
     resolution: {integrity: sha512-OBwBN9AL4dqmETlpS2zasx+vTeWclWzkblfZk7KTA5j3jeOONz/tRCnZomUyvNg83wL5Zv9Ss6HMJXAgL8R2Yg==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      brace-expansion: 2.0.2
+      brace-expansion: 2.1.0
     dev: true
 
   /minipass@7.1.2:
